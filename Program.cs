@@ -25,7 +25,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/getUser/{idUser}", async (int idUser, IKersysApi api, CancellationToken cancellationToken) =>
 {
-    await api.CreateNewAccessToken(new KersysParameters(DateTime.MaxValue, cancellationToken);
+    await api.CreateNewAccessToken(new KersysParameters(DateTime.MaxValue), cancellationToken);
     return Results.Ok(await api.GetUserDataAsync(idUser.ToString(), cancellationToken));
 })
 .WithOpenApi();

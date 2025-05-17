@@ -50,3 +50,4 @@
 /home/fibig/source/fatec/6sem/api-portabilidade/Client/obj/Debug/net8.0/Client.pdb
 /home/fibig/source/fatec/6sem/api-portabilidade/Client/obj/Debug/net8.0/Client.genruntimeconfig.cache
 /home/fibig/source/fatec/6sem/api-portabilidade/Client/obj/Debug/net8.0/ref/Client.dll
+/home/fibig/source/fatec/6sem/api-portabilidade/Client/obj/Debug/net8.0/Client.sourcelink.json
