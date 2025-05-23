@@ -1,0 +1,12 @@
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/bin/Debug/net8.0/PixelLib.deps.json
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/bin/Debug/net8.0/PixelLib.dll
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/bin/Debug/net8.0/PixelLib.pdb
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.csproj.AssemblyReference.cache
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.AssemblyInfoInputs.cache
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.AssemblyInfo.cs
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.csproj.CoreCompileInputs.cache
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.dll
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/refint/PixelLib.dll
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.pdb
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/ref/PixelLib.dll

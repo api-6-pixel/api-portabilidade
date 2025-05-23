@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "PasynrNU3p4=",
+  "success": true,
+  "projectFilePath": "/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/PixelLib.csproj",
+  "expectedPackageFiles": [
+    "/home/fibig/.nuget/packages/microsoft.extensions.configuration/9.0.4/microsoft.extensions.configuration.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.4/microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.configuration.binder/9.0.4/microsoft.extensions.configuration.binder.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.4/microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.4/microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.diagnostics/9.0.4/microsoft.extensions.diagnostics.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.4/microsoft.extensions.diagnostics.abstractions.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.http/9.0.4/microsoft.extensions.http.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.logging/9.0.4/microsoft.extensions.logging.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.4/microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.options/9.0.4/microsoft.extensions.options.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.4/microsoft.extensions.options.configurationextensions.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.extensions.primitives/9.0.4/microsoft.extensions.primitives.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/system.diagnostics.diagnosticsource/9.0.4/system.diagnostics.diagnosticsource.9.0.4.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/fibig/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
