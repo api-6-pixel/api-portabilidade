@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PixelLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a48bc64644813809ffe445ee44284bb85b2f34ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("PixelLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PixelLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

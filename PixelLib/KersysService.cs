@@ -46,6 +46,14 @@ namespace PixelLib
             return new Data(result);
         }
 
+        public Data DecryptUser(string request, string iv, string aes)
+        {
+            string newAesKey = AsymmetricManager.Decrypt(Convert.FromBase64String(aes), libKeys.PrivateKey);
+            string newAesIv = AsymmetricManager.Decrypt(Convert.FromBase64String(iv), libKeys.PrivateKey);
+            string result = SymmetricManager.Decrypt(Convert.FromBase64String(request), Convert.FromBase64String(newAesKey), Convert.FromBase64String(newAesIv));
+            return new Data(result);
+        }
+
 
         public async Task Authorize(bool accepted, string userHash, CancellationToken cancellationToken = default)
         {

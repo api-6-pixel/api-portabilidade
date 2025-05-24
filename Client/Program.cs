@@ -1,3 +1,5 @@
+using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using PixelLib;
 using PixelLib.DI;
 using PixelLib.Models;
@@ -23,6 +25,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapPost("/webhook-user", ([FromBody] UserEncrpyted userEncrypted, IKersysApi api) =>
+{
+    Console.WriteLine(api.DecryptUser(userEncrypted.dados, userEncrypted.aesIv, userEncrypted.aesKey));
+})
+.WithOpenApi();
+
 app.MapPost("/create-key", async (IKersysApi api, CancellationToken cancellationToken) =>
 {
     await api.CreateNewAccessToken(cancellationToken);
@@ -36,14 +44,8 @@ app.MapGet("/getUser/{userId}", async (int userId, IKersysApi api, CancellationT
 })
 .WithOpenApi();
 
-app.MapPut("/authorize/", async (AuthorizePortability req, IKersysApi api, CancellationToken cancellationToken) =>
-{
-    await api.Authorize(req.Accepted, req.AuthToken,cancellationToken);
-    return Results.Ok();
-})
-.WithOpenApi();
-
 
 app.Run();
 
 public record AuthorizePortability(bool Accepted, string AuthToken);
+public record UserEncrpyted(String dados, String aesKey, String aesIv);

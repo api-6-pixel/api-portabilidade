@@ -8,7 +8,7 @@ namespace PixelLib.DI
         public static void RegisterKersysApi(this IServiceCollection services, Action<HttpClient> configureClient)
         {
             _ = services.AddSingleton<IKersysApi, KersysApi>();
-            _ = services.AddSingleton<IKersysService, KersysService>();
+            _ = services.AddSingleton<KersysService>();
             _ = services.AddHttpClient<KersysHttp>(configureClient);
         }
     }

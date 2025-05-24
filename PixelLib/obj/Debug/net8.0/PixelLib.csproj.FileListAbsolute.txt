@@ -10,3 +10,4 @@
 /home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/refint/PixelLib.dll
 /home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.pdb
 /home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/ref/PixelLib.dll
+/home/fibig/source/fatec/6sem/api-portabilidade/PixelLib/obj/Debug/net8.0/PixelLib.sourcelink.json

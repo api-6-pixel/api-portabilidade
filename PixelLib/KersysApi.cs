@@ -2,9 +2,9 @@
 
 namespace PixelLib
 {
-    public class KersysApi(IKersysService service) : IKersysApi
+    public class KersysApi(KersysService service) : IKersysApi
     {
-        private readonly IKersysService _service = service;
+        private readonly KersysService _service = service;
 
         public async Task CreateNewAccessToken(CancellationToken cancellationToken = default)
         {
@@ -16,9 +16,9 @@ namespace PixelLib
             return await _service.GetUserData(userId, parameters, cancellationToken);
         }
 
-        public async Task Authorize(bool accepted, string userHash, CancellationToken cancellationToken = default)
+        public Data DecryptUser(string user, string iv, string aes)
         {
-            await _service.Authorize(accepted, userHash, cancellationToken);
+            return _service.DecryptUser(user, iv, aes);
         }
     }
 }

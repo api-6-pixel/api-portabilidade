@@ -20,7 +20,7 @@ namespace PixelLib.Http
             var request = new
             {
                 clientId = "b428ed96-9499-468b-a988-490d723c66bc",
-                clientSecret = "37a67d50-6b37-487b-b8b0-6abb0c1b0d64remover"
+                clientSecret = "37a67d50-6b37-487b-b8b0-6abb0c1b0d64"
             };
 
             using StringContent content = new(JsonUtils.Serialize(request), Encoding.UTF8, "application/json");
@@ -57,7 +57,7 @@ namespace PixelLib.Http
         {
             var request = new
             {
-                tempoExpiracao = parameters.ExpirationDate,
+                tempoExpiracao = parameters.ExpirationDate.ToString("yyyy-MM-ddThh:mm:ss"),
                 clientID = Convert.ToInt32(clientId),
                 usuarioID = Convert.ToBase64String(body),
                 aesKey = aesKey,
